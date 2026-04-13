@@ -19,7 +19,7 @@ function Mypage() {
   {
     title: "Portfolio Website",
     desc: "Personal portfolio built using React",
-    img: "/CMportfo.png",
+    img: "/CMporfo.png",
     live: "https://your-portfolio.vercel.app",
     github: "https://github.com/CM-techs/Pmcube"
   }
