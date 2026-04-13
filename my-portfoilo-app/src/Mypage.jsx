@@ -21,8 +21,17 @@ function Mypage() {
     desc: "Personal portfolio built using React",
     img: "/CMporfo.png",
     live: "https://your-portfolio.vercel.app",
+    github:"https://github.com/CM-techs/Portfolio-cm",
+    
+  },
+  {
+    title: "Portfolio Website",
+    desc: "Tution center website built for inetrn project at Xplocode using React",
+    img: "/pm.png",
+    live: "https://your-portfolio.vercel.app",
     github: "https://github.com/CM-techs/Pmcube"
-  }
+    
+  },
 ];
    
    
