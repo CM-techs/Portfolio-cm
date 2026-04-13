@@ -27,7 +27,7 @@ function Mypage() {
   {
     title: "Portfolio Website",
     desc: "Tution center website built for inetrn project at Xplocode using React",
-    img: "/pm.png",
+    img: "/Pm.png",
     live: "https://your-portfolio.vercel.app",
     github: "https://github.com/CM-techs/Pmcube"
     
