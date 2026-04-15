@@ -79,9 +79,9 @@ function Mypage() {
             <h3>Connect with me</h3>
             <a href="https://github.com/CM-techs"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/chellamani-j-432762298"><FaLinkedin /></a>
-            <a href="https://wa.me/918680062065" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="https://wa.me/918680062065?text=Hi%2C%20I%20came%20across%20your%20profile%20and%20I%E2%80%99m%20a%20Full%20Stack%20Developer%20currently%20looking%20for%20job%20opportunities%20and%20freelance%20projects.%20I%E2%80%99d%20love%20to%20connect%20and%20discuss%20if%20there%E2%80%99s%20any%20suitable%20opportunity." target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+            {/* <a href="#"><FaTwitter /></a>
+            <a href="#"><FaInstagram /></a> */}
           </div>
         </div>
       </div>
@@ -185,9 +185,9 @@ function Mypage() {
                 <p className="tags">{item.tech}</p>
 
                 <div className="project-buttons">
-                  <a href={item.live} target="_blank" rel="noreferrer">
+                  {/* <a href={item.live} target="_blank" rel="noreferrer">
                     Live Demo
-                  </a>
+                  </a> */}
                   <a href={item.github} target="_blank" rel="noreferrer">
                     View Code
                   </a>
