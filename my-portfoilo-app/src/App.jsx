@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import Mypage from './Mypage'
 import TechBackground from './components/TechBackground'
 import Navbar from './components/Navbar'
+import CustomCursor from './components/CustomCursor'
 import './App.css'
 
 
@@ -12,6 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (<>
+  <CustomCursor />
   <Navbar />
   <TechBackground />
   <Mypage/>

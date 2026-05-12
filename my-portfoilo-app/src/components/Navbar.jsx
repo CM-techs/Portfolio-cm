@@ -54,7 +54,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection('home')}>
-          CM<span>.</span>
+          CM
         </div>
 
         <div className="mobile-icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
