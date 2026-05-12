@@ -555,18 +555,35 @@ h2::after {
   margin-bottom: 8px;
 }
 
-/* ABOUT */
-.about-section p {
-  max-width: 700px;
-  margin: 10px auto;
-  color: #ccc;
+/* ABOUT & OBJECTIVE */
+.about-section,
+.objective-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
 }
 
-/* OBJECTIVE */
+.about-text,
 .objective-text {
-  max-width: 700px;
-  margin: auto;
-  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e2e8f0; /* Brighter, more readable text */
+  margin-bottom: 20px;
+}
+
+.about-title,
+.objective-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #fff, #00adb5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* PROJECTS */

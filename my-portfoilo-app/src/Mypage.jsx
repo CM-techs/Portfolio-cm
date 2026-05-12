@@ -136,38 +136,27 @@ function Mypage() {
       </section>
 
       {/* ABOUT */}
+      {/* ABOUT */}
       <section className="about-section">
-  <h2 className="about-title">Who Am I ?</h2>
-
-  <p className="about-text">
-    I am a passionate and dedicated Full Stack Developer with hands-on experience in building real-world web applications using modern technologies such as React, Node.js, MySQL, and MongoDB. I enjoy transforming ideas into scalable, efficient, and user-friendly digital solutions with clean and maintainable code.
-  </p>
-
-  <p className="about-text">
-    Currently, I am working as an intern at Zaalima Development Pvt Ltd, where I contribute to real-time company products and gain valuable exposure to production-level development practices. This experience has helped me understand how real-world applications are designed, developed, and maintained in a professional environment.
-  </p>
-
-  <p className="about-text">
-    In addition, I am actively working on a client-based project with Xplocode, where I am developing a complete tuition center management system. In this project, I am responsible for building responsive user interfaces, handling backend logic, and integrating databases to ensure smooth functionality and performance.
-  </p>
-
-  <p className="about-text">
-    I have a strong foundation in both frontend and backend development, and I continuously improve my skills by working on practical projects, exploring new technologies, and following industry best practices.
-  </p>
-
-  <p className="about-text">
-    I am a quick learner, highly adaptable, and motivated to grow as a developer. My goal is to work on impactful projects, collaborate with teams, and build applications that provide real value to users while continuously enhancing my technical expertise.
-  </p>
-</section>
+        <h2 className="about-title">Who Am I ?</h2>
+        <p className="about-text">
+          I am a passionate and dedicated Full Stack Developer with hands-on experience in building real-world web applications using modern technologies such as React, Node.js, MySQL, and MongoDB. I enjoy transforming ideas into scalable, efficient, and user-friendly digital solutions with clean and maintainable code.
+        </p>
+        <p className="about-text">
+          Currently, I am working as an intern at Zaalima Development Pvt Ltd, where I contribute to real-time company products and gain valuable exposure to production-level development practices. This experience has helped me understand how real-world applications are designed, developed, and maintained in a professional environment.
+        </p>
+        <p className="about-text">
+          In addition, I am actively working on a client-based project with Xplocode, where I am developing a complete tuition center management system. In this project, I am responsible for building responsive user interfaces, handling backend logic, and integrating databases to ensure smooth functionality and performance.
+        </p>
+      </section>
 
       {/* OBJECTIVE */}
-     <section className="objective-section">
-  <h2 className="objective-title">Objective</h2>
-
-  <p className="objective-text">
-    To start my career as a Full Stack Developer in a dynamic and growth-oriented organization where I can apply my technical skills, contribute to real-world projects, and continuously enhance my knowledge. I aim to build scalable, efficient, and user-friendly applications while collaborating with teams and gaining hands-on experience in modern web development practices.
-  </p>
-</section>
+      <section className="objective-section">
+        <h2 className="objective-title">Objective</h2>
+        <p className="objective-text">
+          To start my career as a Full Stack Developer in a dynamic and growth-oriented organization where I can apply my technical skills, contribute to real-world projects, and continuously enhance my knowledge. I aim to build scalable, efficient, and user-friendly applications while collaborating with teams and gaining hands-on experience in modern web development practices.
+        </p>
+      </section>
 
       {/* PROJECTS */}
       <section id="projects" className="projects-section">
