@@ -38,8 +38,7 @@ function Mypage() {
 
   return (
     <>
-      {/* HERO */}
-      <div className="container">
+      <div id="home" className="container">
         <div className="text-box">
           <h1 className="name">Chellamani . J</h1>
           <p className="role">Full Stack Developer</p>
@@ -87,7 +86,7 @@ function Mypage() {
       </div>
 
       {/* SKILLS */}
-      <section className="skills-section">
+      <section id="skills" className="skills-section">
         <h2>My Skills</h2>
         <div className="skills-container">
           <div className="skill-card">
@@ -110,7 +109,7 @@ function Mypage() {
       </section>
 
       {/* EXPERIENCE */}
-      <section className="experience-section">
+      <section id="experience" className="experience-section">
         <h2 className="experience-title">Experience</h2>
 
         <div className="experience-container">
@@ -199,7 +198,7 @@ function Mypage() {
       </section>
 
       {/* CONTACT */}
-      <section className="contact-section">
+      <section id="contact" className="contact-section">
         <h2>Contact</h2>
         <p>Email: cchellamani12@gmail.com</p>
         <p>Location: Tamil Nadu, India</p>
