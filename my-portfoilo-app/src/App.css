@@ -204,6 +204,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .nav-logo {
+    font-size: 24px; /* Smaller logo for mobile */
+    padding: 5px 8px;
+  }
   .navbar {
     padding: 15px 20px;
   }
@@ -215,7 +219,7 @@ body {
   }
   .nav-links {
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: -100%;
     width: 100%;
     height: 100vh;
@@ -662,7 +666,8 @@ h2::after {
 @media (max-width: 768px) {
   .container {
     height: auto;
-    padding: 40px 20px;
+    min-height: 100vh;
+    padding: 120px 20px 40px 20px; /* Added top padding for navbar */
   }
 
   .name {
