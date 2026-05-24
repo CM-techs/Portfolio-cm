@@ -21,7 +21,7 @@ function Mypage() {
     {
       title: "Portfolio Website",
       desc: "A personal portfolio built with React and deployed on Vercel.",
-      img: "/CMporfo.png",
+      img: "/CMportfo.png",
       live: "https://portfolio-cm-git-main-cm-techs-projects.vercel.app/",
       github: "https://github.com/CM-techs/Portfolio-cm",
       tech: "React"
@@ -34,6 +34,14 @@ function Mypage() {
       github: "https://github.com/CM-techs/Pmcube",
       tech: "React • Node • MongoDB"
     },
+    {
+      title: "NextHireAI (AI Resume Generator) ",
+      desc: "A AI platform developed as a Intern project.",
+      img: "/NextHireAI.png",
+      live: "#",
+      github: "https://github.com/CM-techs/NextHire-AI",
+      tech: "React • Node • MongoDB"
+    }
   ];
 
   return (
