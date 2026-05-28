@@ -167,13 +167,14 @@ function Mypage() {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" className="projects-section">
+      <section id="projects" className="projects-section"  onContextMenu={(e) => e.preventDefault()}>
         <h2>My Projects</h2>
 
         <div className="projects-container">
           {projects.map((item, index) => (
             <div className="project-card" key={index}>
-              <img src={item.img} alt={item.title} />
+              <img draggable='false'   src={item.img} alt={item.title} />
+              <div className =" overlay"></div>
 
               <div className="project-content">
                 <h3>{item.title}</h3>
