@@ -67,7 +67,7 @@ function Mypage() {
               Visit my works
             </button>
 
-            <a style={{textDecoration:"none",fontSize:"13px"}} href="https://drive.google.com/file/d/16ALobXWL4DAHKulA05mJwqjSmgSG9Ui-/view?usp=drivesdk" download className="visit-btn">
+            <a style={{textDecoration:"none",fontSize:"13px"}} href="https://drive.google.com/file/d/1MGs0EG0FSxi-K9HhOoZJf4O5K2tkEAtJ/view?hl=en_GB" download className="visit-btn">
               Download Resume
             </a>
 
@@ -123,7 +123,7 @@ function Mypage() {
         <div className="experience-container">
           <div className="experience-card">
             <h3>Zaalima Development Pvt Ltd</h3>
-            <p className="role">Intern (Present)</p>
+            <p className="role">Intern (Apr- jun'26)</p>
             <ul>
               <li>Working on real-world web applications</li>
               <li>Contributing to company products</li>
