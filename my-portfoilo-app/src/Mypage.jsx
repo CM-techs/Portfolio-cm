@@ -41,6 +41,14 @@ function Mypage() {
       live: "#",
       github: "https://github.com/CM-techs/NextHire-AI",
       tech: "React • Node • MongoDB"
+    },
+    {
+      title: "DravixAI (Rag based Sop Agent)",
+      desc: "A AI platform developed as a Intern project.",
+      img: "/DravixAi.png",
+      live: "#",
+      github: "https://github.com/CM-techs/DravixAI",
+      tech: "React • Node • MongoDB"
     }
   ];
 
