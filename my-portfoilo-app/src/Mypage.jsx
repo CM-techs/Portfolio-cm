@@ -49,7 +49,15 @@ function Mypage() {
       live: "#",
       github: "https://github.com/CM-techs/DravixAI",
       tech: "React • Node • MongoDB"
-    }
+    },
+    {
+      title: "Srikanth Portfolio Website",
+      desc: "Designed and developed a responsive personal portfolio website for a client, featuring modern UI, smooth animations, project showcases, and a contact section.",
+      img: "/srikanth.png",
+      live: "https://srikanth-portfolio-smoky.vercel.app/",
+      github: "#",
+      tech: "React • CSS • HTML • VERCEL"
+}
   ];
 
   return (
@@ -152,7 +160,7 @@ function Mypage() {
       </section>
 
       {/* ABOUT */}
-      {/* ABOUT */}
+    
       <section className="about-section">
         <h2 className="about-title">Who Am I ?</h2>
         <p className="about-text">
