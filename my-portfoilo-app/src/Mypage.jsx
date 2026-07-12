@@ -53,7 +53,7 @@ function Mypage() {
     {
       title: "Srikanth Portfolio Website",
       desc: "Designed and developed a responsive personal portfolio website for a client, featuring modern UI, smooth animations, project showcases, and a contact section.",
-      img: "/srikanth.png",
+      img: "/srikaportfo1.png",
       live: "https://srikanth-portfolio-smoky.vercel.app/",
       github: "#",
       tech: "React • CSS • HTML • VERCEL"
